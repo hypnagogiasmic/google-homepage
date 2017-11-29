@@ -1,0 +1,251 @@
+body {
+    margin: 0;
+}
+
+#nav-left {
+    display: block;
+        float: left;
+        width: 50%;
+        margin-bottom: 160px;
+}
+
+#nav-left ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 20px;
+    overflow: hidden;
+    background-color: white;
+}
+
+#nav-left li {
+    display: inline;
+}
+
+#nav-left li a {
+    color: black;
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 15px;
+    opacity: 0.75;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+}
+
+#nav-right {
+    display: block;
+        float: right;
+        width: 50%;
+         margin-bottom: 160px;
+}
+
+#nav-right ul {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding-top: 20px;
+    padding-right: 20px;
+    overflow: hidden;
+    background-color: white;
+}
+
+#nav-right li {
+    display: inline;
+}
+
+#nav-right li a {
+    color: black;
+    text-align: center;
+    padding-left: 20px;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+}
+
+#grid {
+    display: inline-block;
+}
+
+img#grid {
+    vertical-align: middle;
+}
+
+#bell {
+    display: inline-block;
+}
+
+img#bell {
+        vertical-align: middle;
+}
+
+#profile {
+    display: inline-block;
+}
+
+img#profile {
+        vertical-align: middle;
+}
+
+#lga {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 24px;
+width:272px;
+height: 92px;
+clear: both;
+}
+
+#hplogo {
+    display: block;
+    margin: 0 auto;
+}
+
+img#hplogo {
+
+}
+
+#tsf {
+	overflow: visible;
+	max-width: none;
+	margin: 0 auto;
+	width: 833px;
+	background: none;
+}
+
+form {
+	display: block;
+}
+
+div#shadow {
+    width: 590px;
+    height: 44px;
+    margin: 0 auto;
+    box-shadow: 0 4px 2px 0 rgba(0,0,0,0.16);
+}
+
+#searchbox {
+    display: block;
+    margin: 0 auto;
+}
+
+input#search {
+    background: url(http://i.imgur.com/l5S4LZ2.png) no-repeat right center;
+    background-size: 1.7rem 1.7rem;
+    background-position-x: 34rem;
+    width: 586px;
+    height: 42px;
+    display: block;
+    font: 16px arial,sans-serif;
+    line-height: 60px;
+    margin: 0 auto;
+    border: 1px #0000001f solid;
+}
+
+input:focus {
+	outline: none;
+}
+
+#buttons {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 1.2rem;
+}
+
+#buttons input[type="submit"] {
+    height: 36px;
+    line-height: 27px;
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+}
+
+p {
+    font-size: small;
+    text-align:center;
+    font-family: arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#footerbar {
+    bottom: 0;
+    font-size: 10pt;
+    height: 35px;
+    position: absolute;
+    width: 100%;
+    background: #f2f2f2;
+}
+
+#fbar-left {
+    display: block;
+        float: left;
+        width: 50%;
+        margin-left: -27px;
+}
+
+#fbar-left ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 27px;
+    overflow: hidden;
+}
+
+#fbar-left li {
+    display: inline;
+}
+
+#fbar-left li a {
+    color: black;
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 15px;
+    opacity: 0.75;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+}
+
+#fbar-right {
+    display: block;
+        float: right;
+        text-align: right;
+        width: 50%;
+}
+
+#fbar-right ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 27px;
+    overflow: hidden;
+}
+
+#fbar-right li {
+    display: inline;
+}
+
+#fbar-right li a {
+    color: black;
+    text-align: center;
+    padding-left: 20px;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+}
